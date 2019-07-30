@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProgrammingContestTemplateByDotNetCore", "ProgrammingContestTemplateByDotNetCore\ProgrammingContestTemplateByDotNetCore.csproj", "{0F47AF40-C9E0-40FB-B6B9-A61CA3360C03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library", "Library\Library.csproj", "{6F13454E-7868-461C-99FC-7C600F56E741}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.Tests", "Library.Tests\Library.Tests.csproj", "{BDB8B201-C324-4022-B989-3147C9D49288}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,5 +17,13 @@ Global
 		{0F47AF40-C9E0-40FB-B6B9-A61CA3360C03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F47AF40-C9E0-40FB-B6B9-A61CA3360C03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F47AF40-C9E0-40FB-B6B9-A61CA3360C03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F13454E-7868-461C-99FC-7C600F56E741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F13454E-7868-461C-99FC-7C600F56E741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F13454E-7868-461C-99FC-7C600F56E741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F13454E-7868-461C-99FC-7C600F56E741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB8B201-C324-4022-B989-3147C9D49288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB8B201-C324-4022-B989-3147C9D49288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB8B201-C324-4022-B989-3147C9D49288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB8B201-C324-4022-B989-3147C9D49288}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
