@@ -1,0 +1,39 @@
+trigger:
+  branches:
+    include:
+      - '*'
+  tags:
+    include:
+      - '*'
+
+jobs:
+  - job: Linux
+    pool:
+      vmImage: 'ubuntu-16.04'
+    steps:
+      - script: dotnet restore
+        displayName: Restore project
+      - script: dotnet build
+        displayName: Build project
+      - script: dotnet test
+        displayName: Test Library
+  - job: OS_X
+    pool:
+      vmImage: 'macos-10.13'
+    steps:
+      - script: dotnet restore
+        displayName: Restore project
+      - script: dotnet build
+        displayName: Build project
+      - script: dotnet test
+        displayName: Test Library
+  - job: Windows
+    pool:
+      vmImage: 'vs2017-win2016'
+    steps:
+      - script: dotnet restore
+        displayName: Restore project
+      - script: dotnet build
+        displayName: Build project
+      - script: dotnet test
+        displayName: Test Library
