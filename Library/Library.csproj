@@ -8,7 +8,6 @@
     <Folder Include="DataStructure\" />
     <Folder Include="Graph\" />
     <Folder Include="Math\" />
-    <Folder Include="String\" />
     <Folder Include="Util\" />
   </ItemGroup>
 </Project>
