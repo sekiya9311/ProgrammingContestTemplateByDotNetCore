@@ -1,14 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
     <Folder Include="DataStructure\" />
     <Folder Include="Graph\" />
     <Folder Include="Math\" />
-    <Folder Include="String\" />
     <Folder Include="Util\" />
   </ItemGroup>
 </Project>
